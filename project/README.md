@@ -11,7 +11,10 @@ Afin d'éviter un téléchargement interminable les fichiers vendor ne sont pas 
 <p> Une fois cette commande effectuer nous allons nous placer dans notre dossier /var/www/html/project pour la suite des manipulations. Depuis ce dossier vous executerez la commande suivant composer install (ce qui installera automatiquement les dépendances manquantes grâce au fichier composer.json </p>
 <h3>Configuration de votre vagrant</h3>
 <p>Afin de pouvoir utiliser l'api il va falloir faire quelques configuration au niveau de votre vagrant: <br>
-=> Modifier le fichier 000-default.conf avec la commande sudo nano /etc/apache2/sites-available/000-default.conf
+=> Modifier le fichier 000-default.conf avec la commande 
+    ```
+    sudo nano /etc/apache2/sites-available/000-default.conf
+    ```
 Il faut remplacer 	
 DocumentRoot en /var/www/html/project/public
 
