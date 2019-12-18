@@ -53,3 +53,5 @@ php artisan migrate:fresh --seed
     Une fois ouverte l'application vous permettra d'utiliser différentes routes et méthode afin d'utiliser pleinement l'API
     Voici les différentes routes utilisables
     <img src="./project/Table_routes_Api.png">
+<h2>Utilisation de l'API avec le front</2>
+Le dossier front est une ébauche du futur site de gestion des apprenants de la ItAkademy, accéder au index HTML pour pouvoir 
