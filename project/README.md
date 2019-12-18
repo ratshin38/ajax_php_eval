@@ -27,4 +27,24 @@ Et ajouter
 =>Modifier le fichier envvars avec la commande  sudo nano /etc/apache2/envvars et modifier les deux 'www-data' par 'vagrant'
 <br><br>
 Après ces deux manipulations redemmarez votre serveur avec sudo service apache2 restart</p>
+<h3>Créer votre DB</h3>
+La database n'étant pas héberger afin d'avoir du contenu il va falloir créer la database dwm12 via Mysql et faire une migration des seed et des table créées dans le repo Project.
+Pour faire la migration placez vous dans /var/www/html/project et faite cette commande php artisan migrate:fresh --seed
+
 <h2>Utilisation de l'API avec POSTMAN</h2>
+<p> Pour utiliser l'API il faudra télécharge <a href="https://www.getpostman.com/downloads/">POSTMAN</a> 
+    Une fois ouverte l'application vous permettra d'utiliser différentes routes et méthode afin d'utiliser pleinement l'API
+<table>
+    <tr>
+        <th>Method<th>
+        <th>URI</th>
+        <th>Action</th>
+        <th>Utilisation</th>
+   </tr>
+   <tr>
+       <td></td>
+       <td></td>
+       <td></td>
+       <td></td>
+    </tr>
+    
