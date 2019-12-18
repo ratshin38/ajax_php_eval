@@ -34,17 +34,5 @@ Pour faire la migration placez vous dans /var/www/html/project et faite cette co
 <h2>Utilisation de l'API avec POSTMAN</h2>
 <p> Pour utiliser l'API il faudra télécharge <a href="https://www.getpostman.com/downloads/">POSTMAN</a> 
     Une fois ouverte l'application vous permettra d'utiliser différentes routes et méthode afin d'utiliser pleinement l'API
-<table>
-    <tr>
-        <th>Method<th>
-        <th>URI</th>
-        <th>Action</th>
-        <th>Utilisation</th>
-   </tr>
-   <tr>
-       <td></td>
-       <td></td>
-       <td></td>
-       <td></td>
-    </tr>
+
     
