@@ -52,4 +52,4 @@ php artisan migrate:fresh --seed
 <p> Pour utiliser l'API il faudra télécharge <a href="https://www.getpostman.com/downloads/">POSTMAN</a> 
     Une fois ouverte l'application vous permettra d'utiliser différentes routes et méthode afin d'utiliser pleinement l'API
     Voici les différentes routes utilisables
-    <img src="./Table_routes_Api.png">
+    <img src="./project/Table_routes_Api.png">
